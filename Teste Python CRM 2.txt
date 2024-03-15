@@ -1,0 +1,24 @@
+Teste de Seleção - Python CRM 2
+
+Neste arquivo você econtra dados hipotéticos de um varejista de 2023 e de 2022 (Janeiro até Setembro). Nas abas em cor verde você encontra 4 pequenas bases de dados, que contém os dados brutos das transações (Raw), e as dimensões de produto, lojas e clientes.
+
+Instruções:
+
+Utilizando Pandas e Numpy (ou se preferir, outras bibliotecas de Python) você deve limpar e processar os dados seguindo os passos abaixo, assumindo que o seu código deve funcionar não só para esta base pequena, mas para uma base de 237 Milhões de transações, 640 mil produtos, 1021 Lojas e 21 Milhões de clientes. Em outras palavras, faça a análise utilizando Python, da maneira mais eficiente e otimizada que consiga, considerando que é o tipo de estudo que costumamos fazer com um grande volume de dados e de maneira recorrente. Por favor, envie o notebook (.ipynb) por e-mail antes da apresentação.
+
+0. Importar os dados das abas em cor verde do arquivo de Excel.
+
+1. Limpar e preparar os dados
+ - Eliminando os possíveis espaços no início e no final de cada coluna nas diferentes tabelas
+
+2. Trazer os principais KPIs que resumam o comportamento da base: gasto por cliente, itens comprados, frequência, etc. Você pode mostrá-los em gráficos e trazer as médias e distribuição dos valores. É importante que você escreva com suas próprias palavras uma conclusão sobre o que pode ser observado nos gráficos.
+
+3. No ano 2023 as campanhas se focaram na venda do Top vermelho marca “Gamma Z”. Por favor avalie se estes produtos tiveram melhor desempenho
+
+"4. Os times de moda e marketing estão introduzindo um novo sistema de recomendação de produtos para os disparo de e-mail. Afim de verificar a eficiência desse novo modelo, foi feito um teste em que separaram os clientes em dois grupos:
+CONTROLE - Recebeu o e-mail com o sistema ANTIGO  de recomendação
+TESTE - Recebeu o e-mail com o sistema NOVO de recomendação
+
+Olhando para os resultados na aba Teste, responda para os times de moda e marketing se o sistema NOVO possui diferença significativa para o modelo ANTIGO
+
+"
