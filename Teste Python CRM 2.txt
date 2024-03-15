@@ -1,24 +1,22 @@
-Teste de Seleção - Python CRM 2
 
-Neste arquivo você econtra dados hipotéticos de um varejista de 2023 e de 2022 (Janeiro até Setembro). Nas abas em cor verde você encontra 4 pequenas bases de dados, que contém os dados brutos das transações (Raw), e as dimensões de produto, lojas e clientes.
+In this file you will find hypothetical data for a retailer from 2023 and 2022 (January to September). In the green tabs you'll find 4 small databases, which contain the raw transaction data and the product, store and customer dimensions.
 
-Instruções:
+Instructions:
 
-Utilizando Pandas e Numpy (ou se preferir, outras bibliotecas de Python) você deve limpar e processar os dados seguindo os passos abaixo, assumindo que o seu código deve funcionar não só para esta base pequena, mas para uma base de 237 Milhões de transações, 640 mil produtos, 1021 Lojas e 21 Milhões de clientes. Em outras palavras, faça a análise utilizando Python, da maneira mais eficiente e otimizada que consiga, considerando que é o tipo de estudo que costumamos fazer com um grande volume de dados e de maneira recorrente. Por favor, envie o notebook (.ipynb) por e-mail antes da apresentação.
+Using Pandas and Numpy (or if you prefer, other Python libraries) you should clean and process the data following the steps below, assuming that your code should work not only for this small base, but for a base of 237 Million transactions, 640 thousand products, 1021 Stores and 21 Million customers. In other words, do the analysis using Python, in the most efficient and optimized way you can, considering that this is the type of study we usually do with a large volume of data and on a recurring basis. Please send the notebook (.ipynb) by e-mail before the presentation.
 
-0. Importar os dados das abas em cor verde do arquivo de Excel.
+0. Import the data from the green tabs of the Excel file.
 
-1. Limpar e preparar os dados
- - Eliminando os possíveis espaços no início e no final de cada coluna nas diferentes tabelas
+1. clean and prepare the data
+ - Eliminating possible spaces at the beginning and end of each column in the different tables
 
-2. Trazer os principais KPIs que resumam o comportamento da base: gasto por cliente, itens comprados, frequência, etc. Você pode mostrá-los em gráficos e trazer as médias e distribuição dos valores. É importante que você escreva com suas próprias palavras uma conclusão sobre o que pode ser observado nos gráficos.
+2. Bring in the main KPIs that summarize the base's behaviour: spend per customer, items purchased, frequency, etc. You can show them in graphs and provide the averages and distribution of the values. It is important that you write in your own words a conclusion about what can be observed in the graphs.
 
-3. No ano 2023 as campanhas se focaram na venda do Top vermelho marca “Gamma Z”. Por favor avalie se estes produtos tiveram melhor desempenho
+3. In the year 2023 the campaigns focused on selling the red top brand "Gamma Z". Please assess whether these products performed better
 
-"4. Os times de moda e marketing estão introduzindo um novo sistema de recomendação de produtos para os disparo de e-mail. Afim de verificar a eficiência desse novo modelo, foi feito um teste em que separaram os clientes em dois grupos:
-CONTROLE - Recebeu o e-mail com o sistema ANTIGO  de recomendação
-TESTE - Recebeu o e-mail com o sistema NOVO de recomendação
+"4. The fashion and marketing teams are introducing a new product recommendation system for email blasts. In order to verify the efficiency of this new model, a test was carried out in which customers were separated into two groups:
+CONTROL - Received the email with the OLD recommendation system
+TEST - Received the e-mail with the NEW recommendation system
 
-Olhando para os resultados na aba Teste, responda para os times de moda e marketing se o sistema NOVO possui diferença significativa para o modelo ANTIGO
+Looking at the results in the Test tab, answer the fashion and marketing teams whether the NEW system has a significant difference to the OLD model.
 
-"
