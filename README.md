@@ -26,3 +26,7 @@ the .png figures are the outputs of the graphical analysis.
 ## parquet files
 
 you can adapt the codes to read .parquet files
+
+## pyspark code
+
+![databricks](PNG/pyspark.png) 
